@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
     font-family: var(--Poppins, serif);
-    color: #9AB0D3;
+    color: var(--#9AB0D3);
 }
 
 header {
