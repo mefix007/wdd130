@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Poppins?preview.text=hello%20guys,how%20are%20u%20doig&preview.size=20);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root {
     --primary-color: #9AB0D3;
@@ -28,12 +28,12 @@ h4,
 h5,
 h6 {
     font-family: var(--Poppins, serif);
-    color: var(--#9AB0D3);
+    color: #9AB0D3;
 }
 
 header {
     padding: 20px;
-    background-color: var(--#D3D5D4);
+    background-color: #D3D5D4;
 }
 
 p {
@@ -41,24 +41,24 @@ p {
 }
 
 nav {
-    background-color: var(--#E7BBE3);
+    background-color: #E7BBE3;
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--#AA4465);
+    color: #AA4465;
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link,
 nav a:visit {
-    color: var(--#AA4465)
+    color: #AA4465;
 }
 
 nav a:hover {
-    color: var(--#7CC6FE);
-    background-color: var(--#E7BBE3);
+    color: #7CC6FE;
+    background-color: #E7BBE3;
 }
