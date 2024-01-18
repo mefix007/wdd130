@@ -9,7 +9,7 @@
     --headings-font: Poppins, serif;
     --paragraph-font: Poppins, serif;
 
-    --nav-background-color: #E7BBE3;
+    --nav-background-color: #d3d5d4;
     --nav-link-color: #AA4465;
     --nav-hover-link-color: #23C9FF;
     --nav-hover-background-color: #7CC6FE;
@@ -29,19 +29,21 @@ h5,
 h6 {
     font-family: var(--Poppins, serif);
     color: #9AB0D3;
+
 }
 
 header {
     padding: 20px;
     background-color: #D3D5D4;
+    text-align: right;
 }
 
 p {
-    padding: 25px;
+    padding: 10px;
 }
 
 nav {
-    background-color: #E7BBE3;
+    background-color: #D3D5D4;
     font-size: 1.2rem;
     display: flex;
 }
@@ -50,7 +52,7 @@ nav a {
     display: block;
     color: #AA4465;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 nav a:link,
@@ -61,4 +63,10 @@ nav a {
 nav a:hover {
     color: #7CC6FE;
     background-color: #E7BBE3;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
