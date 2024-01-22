@@ -35,11 +35,10 @@ h6 {
 header {
     padding: 20px;
     background-color: #D3D5D4;
-    text-align: right;
 }
 
 p {
-    padding: 10px;
+    padding: 25px;
 }
 
 nav {
@@ -52,7 +51,7 @@ nav a {
     display: block;
     color: #AA4465;
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 nav a:link,
