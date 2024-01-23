@@ -1,15 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    /* margin: 1rem;
     border: 1px solid rgb(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
-    color: #333;
+    color: #333; */
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    font-size: medium;
 }
 
 aside img {
@@ -24,28 +38,39 @@ nav {
 
 nav a {
     color: white;
-    display: block;
-    padding: 20px;
+    display: inline-block;
+    padding: 10px;
 }
 
 h1 {
     color: steelblue;
+    padding: 1rem;
 }
 
 main img {
     width: 150px;
     height: auto;
     border: 1px steelblue;
-    padding: 2px;
+    padding: 3px;
     box-shadow: 0 0 30px grey;
+    float: right;
 }
 
 p {
-    padding: 0;
+    padding: 1rem;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* style selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    background-color: #d4d0f5;
+    color: #333;
 }
