@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    --primary-color: #9AB0D3;
+    --secondary-color: #9DB5B2;
+    --accent1-color: #D3D5D4;
+    --accent2-color: #8763B1;
+
+    --headings-font: Poppins, serif;
+    --paragraph-font: Poppins, serif;
+
+    --nav-background-color: #d3d5d4;
+    --nav-link-color: #AA4465;
+    --nav-hover-link-color: #23C9FF;
+    --nav-hover-background-color: #7CC6FE;
+}
+
+body {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+h2,
+h3 {
+    font-family: var(--Poppins, serif);
+    color: #9AB0D3;
+
+}
+
+p {
+    padding: 15px;
+    margin: 5px;
+}
+
+header {
+    padding: 5px;
+    background-color: #ecebee;
+}
+
+.hero img {
+    display: block;
+    max-width: 100px;
+    float: right;
+    height: 120px;
+}
+
+h1 {
+    color: rgb(236, 236, 245);
+    /* display: contents; */
+    position: absolute;
+    top: 10rem;
+    left: 25rem;
+    font-size:xx-large;
+    z-index: 1;
+}
+
+.background img {
+    position: relative;
+    width: 100%;
+    /* max-width: 100%; */
+    z-index: 0;
+    /* text-align: center; */
+}
+
+.background {
+    text-align: center;
+    /* position: relative;
+    padding: 0px; */
+
+}
+
+article {
+    position: absolute;
+    bottom: 5rem;
+    left: 0rem;
+    background: radial-gradient(#eee, #4567aa);
+    /* border: 1px solid #000; */
+    padding: 0;
+    margin: 20px;
+    /* box-shadow: 0 0 3px #111; */
+    opacity: 0.8;
+    /* background: rgb(68 68 243 / 51%);
+    position: absolute;
+    top: 60%;
+    left: 75%; */
+    z-index: 1;
+}
+
+footer {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1px;
+    margin: 0;
+}
+
+.sociolinks {
+    float: left;
+}
