@@ -54,6 +54,9 @@ h1 {
     z-index: 1;
 }
 
+h4{
+    margin: 0rem;
+}
 .background img {
     position: relative;
     width: 100%;
