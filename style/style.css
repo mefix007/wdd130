@@ -27,7 +27,7 @@ aside {
 
 .grid {
     display: grid;
-    align-items: stretch;
+    align-items: center;
     /* grid-template-columns: 20% 20% 20% 20%; */
 }
 
