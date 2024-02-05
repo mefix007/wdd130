@@ -58,7 +58,7 @@ header {
 
 .head {
     background-color: steelblue;
-   margin: 0em;
+    margin: 0em;
 
 }
 
@@ -76,21 +76,23 @@ h4 {
     margin: 0rem;
 }
 
-.history{
-    display: flex;   
+.history {
+    display: flex;
 }
 
-.history img{
-width: 300px;
-}
-.adventure img{
+.history img {
     width: 300px;
 }
- .adventure {
+
+.adventure img {
+    width: 300px;
+}
+
+.adventure {
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
- }
+}
 
 .background>img {
     position: absolute;
@@ -158,7 +160,7 @@ nav a {
     display: flex;
     justify-content: end;
     /* align-items: flex-start; */
-   
+
 }
 
 ul {
@@ -174,6 +176,7 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
 header,
 .background,
 footer {
