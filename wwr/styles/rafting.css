@@ -76,6 +76,13 @@ h4 {
     margin: 0rem;
 }
 
+.history{
+    display: flex;   
+}
+
+.history img{
+width: 300px;
+}
 .adventure img{
     width: 300px;
 }
