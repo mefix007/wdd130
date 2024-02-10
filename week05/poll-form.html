@@ -7,33 +7,49 @@
     <title>Poll Form | by Odusile Olufemi</title>
     <meta name="description" content="profile page, course ID, and introdcing myself to the world">
     <meta name="Author" content="Odusile olufemi Joseph">
+    <link rel="stylesheet" href="style/poll-form.css">
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <h1>Poll Form</h1>
+    </header>
     <main>
+        <!-- <div class="form"> -->
         <fieldset>
             <legend>Contact Information</legend>
-            <label>Full name: <input type="text" name="fullname"></label><br>
-            <label>Email: <input type="text" name="email"></label>
+            <div class="form-item column2">
+                <label>Full name: <input type="text" name="fullname"></label>
+            </div>
+            <div class="form-item column2">
+                <label>Email: <input type="text" name="email"></label>
+            </div>
         </fieldset>
         <fieldset>
             <legend>Questions</legend>
-            <label>What is your favorite browser:<select name="browser">
-                    <option value="choose browser">Choose Browser</option>
-                    <option value="chrome">Chrome</option>
-                    <option value="edge">Edge</option>
-                    <option value="firefox">Firefox</option>
-                </select>
-            </label><br>
-            <label for="pet">Do you have a household pet?</label>
-            <input type="checkbox" id="pet" name="pet"><br>
-            <label for="live area">List the places you have lived</label>
-            <textarea id="live area" name="live areas" rows="4" placeholder="Lagos, Ogun, Oyo, Ondo, Osun"></textarea>
+            <div class="form-item column1">
+                <label>What is your favorite browser:<select name="browser">
+                        <option value="" selected disabled>Choose Browser</option>
+                        <option value="chrome">Chrome</option>
+                        <option value="edge">Edge</option>
+                        <option value="firefox">Firefox</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-item column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="form-item column2">
+                <label for="live area">List the places you have lived</label>
+                <textarea id="live area" name="live areas" rows="4"
+                    placeholder="Lagos, Ogun, Oyo, Ondo, Osun"></textarea>
+            </div>
         </fieldset>
         <button>Submit poll</button>
+        <!-- </div> -->
     </main>
-    <footer></footer>
+    <footer>©2024 🔰odusile olufemi 🔰Nigeria</footer>
 </body>
 
 </html>
