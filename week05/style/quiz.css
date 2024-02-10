@@ -15,26 +15,28 @@ h1 {
     color: black;
 }
 
-.quiz{
+.quiz {
     display: table;
     font-size: 1.2rem;
     margin: 10px;
     padding-inline: 10px;
     background-color: #b4cdec;
 }
-button{
+
+button {
     color: black;
     background-color: blue;
     border: 0;
     border-radius: 0.5rem;
     font-size: 1.2rem;
 }
-footer{
+
+footer {
     margin: 1rem auto 0;
     text-align: center;
     font-size: 1rem;
 }
 
-body{
+body {
     justify-self: center;
 }
