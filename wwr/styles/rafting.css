@@ -24,12 +24,9 @@ h2,
 h3 {
     font-family: var(--Poppins, serif);
     color: #9AB0D3;
+    display: flex;
+    justify-content: center;
 
-}
-
-p {
-    padding: 15px;
-    margin: 5px;
 }
 
 header {
@@ -185,16 +182,6 @@ footer {
     margin: 0 auto;
 }
 
-
-h2,
-h3 {
-    font-family: var(--Poppins, serif);
-    color: #9AB0D3;
-    display: flex;
-    justify-content: center;
-
-}
-
 p {
     width: fit-content;
     display: flex;
@@ -216,17 +203,6 @@ p {
     width: 300px;
     flex-wrap: wrap;
 }
-
-.background {
-    text-align: center;
-    position: relative;
-    display: grid;
-    height: 600px;
-    /* align-items: center; */
-    /* padding: 0px; */
-
-}
-
 
 .map {
     width: 400px;
