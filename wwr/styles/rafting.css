@@ -254,11 +254,15 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
-button {
+input[type="button"] {
     top: 0;
     color: black;
     background-color: blue;
     border: 0;
     border-radius: 0.5rem;
     font-size: 1.2rem;
+}
+
+input[type="button"]:hover {
+    color: #7CC6FE;
 }
