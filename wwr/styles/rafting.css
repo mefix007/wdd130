@@ -230,7 +230,7 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
-input[type="button"] {
+button {
     top: 0;
     color: black;
     background-color: blue;
@@ -239,7 +239,7 @@ input[type="button"] {
     font-size: 1.2rem;
 }
 
-input[type="button"]:hover {
+button:hover {
     color: #7CC6FE;
 }
 
