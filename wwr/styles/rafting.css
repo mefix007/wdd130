@@ -242,3 +242,8 @@ input[type="button"] {
 input[type="button"]:hover {
     color: #7CC6FE;
 }
+
+input {
+    padding-block: 1.5px;
+    padding-inline: 40px;
+}
