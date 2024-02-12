@@ -164,9 +164,9 @@ nav a {
 ul {
     margin-block-start: -20px;
     margin-block-end: 1px;
-    margin-inline-start: 3em;
+    /* margin-inline-start: 3em;
     margin-inline-end: 1em;
-    /* padding-inline-start: 30rem; */
+    padding-inline-start: 30rem; */
 }
 
 .sociolinks {
