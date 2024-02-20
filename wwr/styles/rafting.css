@@ -33,11 +33,6 @@ header {
     padding: 5px;
     background-color: #ecebee;
     margin: 1rem auto;
-    /* display: grid; */
-    /* grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px; */
 
 }
 
@@ -61,10 +56,7 @@ header {
 
 h1 {
     color: rgb(236, 236, 245);
-    /* display: contents; */
     position: relative;
-    /* top: 10rem; */
-    /* left: 25rem; */
     font-size: xx-large;
     z-index: 1;
 }
@@ -99,9 +91,6 @@ h4 {
     left: 0;
     top: 0;
     height: 600px;
-    /* text-align: center; */
-    /* grid-column: 1/3;
-    grid-row: 1/3; */
 }
 
 .background {
@@ -109,26 +98,13 @@ h4 {
     position: relative;
     display: grid;
     height: 600px;
-    /* align-items: center; */
-    /* padding: 0px; */
-
 }
 
 article {
     position: relative;
-    /* bottom: 5rem; */
-    /* left: 0rem; */
     background: radial-gradient(#eee, #4567aa);
-    /* border: 1px solid #000; */
-    /* padding: 0; */
     margin: 5px;
-    /* box-shadow: 0 0 3px #111; */
     opacity: 0.8;
-    /* background: rgb(68 68 243 / 51%);
-    position: absolute;
-    top: 60%;
-    left: 75%; */
-    /* z-index: 1; */
     display: block;
 }
 
@@ -138,9 +114,6 @@ footer {
 }
 
 nav a {
-    /* text-decoration: none;
-    padding: 1px;
-    margin: 0; */
     color: rgb(233, 234, 240);
     display: block;
     padding: 0.5rem;
@@ -150,15 +123,9 @@ nav a {
 }
 
 .navig {
-    /* display: flex;*/
     list-style: none;
-    /*justify-content: end;
-    grid-gap: 4px; */
-    /* padding: 1rem; */
     display: flex;
     justify-content: end;
-    /* align-items: flex-start; */
-
 }
 
 ul {
@@ -166,7 +133,6 @@ ul {
     margin-block-end: 1px;
     margin-inline-start: 3em;
     margin-inline-end: 1em;
-    /* padding-inline-start: 30rem; */
 }
 
 .sociolinks {
@@ -233,7 +199,7 @@ input[type="checkbox"] {
 button {
     top: 0;
     color: black;
-    background-color: blue;
+    background-color: #E2E9F3;
     border: 0;
     border-radius: 0.5rem;
     font-size: 1.2rem;
@@ -244,6 +210,36 @@ button:hover {
 }
 
 input {
-    padding-block: 1.5px;
-    padding-inline: 40px;
+    padding-block: 2.5px;
+    padding-inline: 55px;
+}
+
+.call {
+    position: relative;
+    bottom: -8em;
+    height: 2.5em;
+    width: 8em;
+    justify-self: flex-end;
+    background-color: #23c9ff;
+    display: flow-root;
+    font-size: larger;
+    font-family: system-ui;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.correspond {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+
+}
+
+.correspond img {
+    width: 450px;
+    height: 300px;
 }
